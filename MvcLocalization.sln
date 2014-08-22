@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altairis.Mvc.Localization.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altairis.Mvc.Localization", "Altairis.Mvc.Localization\Altairis.Mvc.Localization.csproj", "{75720F4B-76F2-4AB5-A610-67AC1703026D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{6134E00C-3531-483B-A8C5-9A5532432B0A}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		WE-Markdown.css = WE-Markdown.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
