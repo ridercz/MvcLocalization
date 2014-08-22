@@ -1,0 +1,51 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1>It works!</h1>
+
+        <h2>Translated text</h2>
+        <p>@UI.MyLocalizedText</p>
+
+        <h2>i18n</h2>
+        <ul>
+            <li><b>Culture</b> = @this.Culture</li>
+            <li><b>UI Culture</b> = @this.UICulture</li>
+            <li><b>Date</b> = @DateTime.Today.ToLongDateString()</li>
+            <li><b>Number</b> = @int.MaxValue.ToString("N")</li>
+        </ul>
+
+        <h2>Route Data</h2>
+        <ul>
+            @foreach (var value in this.Request.RequestContext.RouteData.Values) {
+                <li><b>@value.Key</b> = @value.Value</li>
+            }
+        </ul>
+
+        <h2>Links</h2>
+        <ul>
+            <li>
+                Index, in:
+                @Html.ActionLink("current language", "Index") |
+                @Html.ActionLink("Czech", "Index", new { locale = "cs" }) |
+                @Html.ActionLink("English", "Index", new { locale = "en" }) |
+                @Html.ActionLink("German", "Index", new { locale = "de" }) |
+            </li>
+            <li>
+                Other (with value), in:
+                @Html.ActionLink("current language", "OtherAction", new { id = 123 }) |
+                @Html.ActionLink("Czech", "OtherAction", new { id = 123, locale = "cs" }) |
+                @Html.ActionLink("English", "OtherAction", new { id = 123, locale = "en" }) |
+                @Html.ActionLink("German", "OtherAction", new { id = 123, locale = "de" }) |
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

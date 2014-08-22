@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altairis.Mvc.Localization.DemoSite", "Altairis.Mvc.Localization.DemoSite\Altairis.Mvc.Localization.DemoSite.csproj", "{46E91841-A21F-47B8-9AB7-5CA0B8688E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altairis.Mvc.Localization", "Altairis.Mvc.Localization\Altairis.Mvc.Localization.csproj", "{75720F4B-76F2-4AB5-A610-67AC1703026D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E91841-A21F-47B8-9AB7-5CA0B8688E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E91841-A21F-47B8-9AB7-5CA0B8688E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E91841-A21F-47B8-9AB7-5CA0B8688E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E91841-A21F-47B8-9AB7-5CA0B8688E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75720F4B-76F2-4AB5-A610-67AC1703026D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75720F4B-76F2-4AB5-A610-67AC1703026D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75720F4B-76F2-4AB5-A610-67AC1703026D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75720F4B-76F2-4AB5-A610-67AC1703026D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
