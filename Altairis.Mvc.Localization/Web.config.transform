@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="altairis.mvc">
+      <section name="localization" type="Altairis.Mvc.Localization.Configuration.LocalizationSection, Altairis.Mvc.Localization"/>
+    </sectionGroup>
+  </configSections>
+  <altairis.mvc>
+    <localization fallbackLocale="en">
+      <locales>
+        <add prefix="en" culture="en-US" uiCulture="en-US" />
+      </locales>
+      <mappings>
+        <add language="en" locale="en" />
+      </mappings>
+      <exceptions>
+        <add path="^\/\w+\.\w+$" match="Regex" />
+        <add path="/content" />
+        <add path="/bundles" />
+        <add path="/scripts" />
+      </exceptions>
+    </localization>
+  </altairis.mvc>
+  <system.webServer>
+    <modules>
+      <add name="AltairisLocalizationModule" type="Altairis.Mvc.Localization.LocalizationModule, Altairis.Mvc.Localization" />
+    </modules>
+  </system.webServer>
+</configuration>

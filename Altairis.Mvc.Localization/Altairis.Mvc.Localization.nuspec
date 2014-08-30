@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Altairis.Mvc.Localization</id>
+    <version>$Version$</version>
+    <title>Altairis MVC Localization Toolkit</title>
+    <authors>Michal A. Valasek</authors>
+    <owners>Altairis</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Localization toolkit for ASP.NET MVC applications.</description>
+    <copyright>Copyright © Altairis, 2014</copyright>
+    <projectUrl>https://github.com/ridercz/MvcLocalization</projectUrl>
+    <licenseUrl>https://github.com/ridercz/MvcLocalization/blob/master/LICENSE</licenseUrl>
+    <iconUrl>http://www.cdn.altairis.cz/NuGet/icon-200x200.png</iconUrl>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="web.config.transform" target="content" />
+  </files>
+</package>

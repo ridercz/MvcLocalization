@@ -5,5 +5,5 @@
 [assembly: AssemblyCompany("Altairis, s. r. o.")]
 [assembly: AssemblyProduct("Altairis MVC Localization Toolkit")]
 [assembly: AssemblyCopyright("Copyright © Altairis, 2014")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0")]
+[assembly: AssemblyFileVersion("1.0.0")]
